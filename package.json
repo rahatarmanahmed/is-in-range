@@ -1,0 +1,25 @@
+{
+  "name": "is-in-range",
+  "description": "Checks if a number is within a range in the format \"1-10\" or \"3,5-7,9\"",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "author": "Rahat Ahmed",
+  "repository": "rahatarmanahmed/is-in-range",
+  "scripts": {
+    "lint": "eslint lib/ test/",
+    "test": "ava test/",
+    "build": "echo nop",
+    "pretest": "npm run lint",
+    "watch": "onchange src/ -- npm run build && echo Done",
+    "dev": "npm run watch",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.13.0",
+    "eslint-config-kellyirc": "^3.1.0",
+    "onchange": "^2.5.0"
+  }
+}
