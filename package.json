@@ -6,6 +6,7 @@
   "main": "lib/index.js",
   "author": "Rahat Ahmed",
   "repository": "rahatarmanahmed/is-in-range",
+  "keywords": ["string", "range", "number", "page"],
   "scripts": {
     "lint": "eslint lib/ test/",
     "test": "ava test/",
