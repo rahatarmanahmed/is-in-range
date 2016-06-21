@@ -1,12 +1,17 @@
 {
   "name": "is-in-range",
   "description": "Checks if a number is within a range in the format \"1-10\" or \"3,5-7,9\"",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "author": "Rahat Ahmed",
   "repository": "rahatarmanahmed/is-in-range",
-  "keywords": ["string", "range", "number", "page"],
+  "keywords": [
+    "string",
+    "range",
+    "number",
+    "page"
+  ],
   "scripts": {
     "lint": "eslint lib/ test/",
     "test": "ava test/",
