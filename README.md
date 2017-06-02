@@ -1,5 +1,7 @@
 # is-in-range [![Build Status](https://travis-ci.org/rahatarmanahmed/is-in-range.svg?branch=master)](https://travis-ci.org/rahatarmanahmed/is-in-range)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rahatarmanahmed/is-in-range.svg)](https://greenkeeper.io/)
+
 Checks if a number is within a string range in the format "1-10" or "3,5-7,9"
 
 A range can be like the following:
